@@ -8,8 +8,8 @@ import landingPageData from "../data/embarkablePageData";
 import { imageLookup } from "../utilities/imageLookup";
 import { getObjectFromArray } from "../utilities/arrayFunctions";
 
-import LogoBlock from "../components/Logo";
-import { IconButton } from "../components/IconButton";
+import LogoBlock from "../components/LogoBlock";
+import IconButton from "../components/IconButton";
 
 function IndexPage() {
   const pageData = getObjectFromArray(
@@ -31,11 +31,17 @@ function IndexPage() {
 			/>	 */}
 
       <div className="relative h-screen overflow-hidden">
-        <div className="absolute max-w-xl text-blue-600 left-1/10 top-1/5">
-          <LogoBlock />
-          <div className="text-6xl">Where creativity meets innovation.</div>
+        <img
+          className="absolute object-cover w-full h-full overflow-hidden"
+          src={imageLookup.LandingPageImage}
+        />
+        <div className="absolute max-w-sm text-blue-600 md:max-w-xl left-1/10 top-1/5">
+          {/* <LogoBlock /> */}
+          <div className="text-3xl md:text-6xl">
+            Where creativity meets innovation.
+          </div>
         </div>
-        <div className="absolute bottom-0 flex justify-center w-full h-40 gap-4">
+        <div className="absolute bottom-0 flex justify-center w-full h-24 gap-4 md:h-40">
           <IconButton
             color="white"
             isExternal
@@ -48,7 +54,7 @@ function IndexPage() {
           </IconButton>
           <IconButton color="white" isExternal link="https://embarkable.io/">
             <img
-              className="object-cover p-4 overflow-hidden bg-white rounded-md"
+              className="object-cover p-2 overflow-hidden bg-white rounded-md"
               src={imageLookup.Embarkable}
             />
           </IconButton>
@@ -58,15 +64,11 @@ function IndexPage() {
             link="https://www.linkedin.com/in/nathan-cauffman/"
           >
             <img
-              className="object-cover w-24 h-24 overflow-hidden rounded-md"
+              className="object-cover overflow-hidden rounded-md"
               src={imageLookup.NathanIn}
             />
           </IconButton>
         </div>
-        <img
-          className="object-cover w-full h-full overflow-hidden"
-          src={imageLookup.LandingPageImage}
-        />
       </div>
     </Layout>
   );

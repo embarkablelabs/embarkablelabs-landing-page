@@ -1,24 +1,8 @@
 import React from "react";
 import { navigate } from "@reach/router";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { iconLookup } from "../utilities/iconLookup";
-
-export const IconButton = ({
-  link,
-  tag,
-  children,
-  color = "blue",
-  isOutline,
-  isRound,
-  isExternal,
-  isFullwidth,
-  isLarge,
-}) => {
-  const setClass = `m-8 shadow-lg w-24 h-24 shadow-lg
-		${isFullwidth && `lg:w-full`}
-		${isLarge && `text-2xl`}
-		${isRound && `rounded-md`}
-		hover:shadow-2xl overflow-hidden`;
+const IconButton = ({ link, tag, children, isExternal }) => {
+  const setClass = `md:m-8 shadow-lg md:w-24 md:h-24 w-16 h-16 
+    shadow-lg	rounded-md hover:shadow-2xl overflow-hidden`;
 
   return (
     <React.Fragment>
@@ -42,3 +26,5 @@ export const IconButton = ({
     </React.Fragment>
   );
 };
+
+export default IconButton;

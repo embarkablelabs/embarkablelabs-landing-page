@@ -1,67 +1,30 @@
-import FeedbackBoard from '../images/embarkable-title.webp';
-import FeedbackBoardPhoto from '../images/embarkable-title-photo.png';
-import FeedbackBoardSquare from '../images/embarkable-title-squares.png';
-import CuratedCard from '../images/embarkable-curated.webp';
-import EngageCard from '../images/embarkable-engage.webp';
-import PrioritizeCard from '../images/embarkable-prioritize.webp';
-import DelightCard from '../images/embarkable-delight.webp';
-import QuestionsCard from '../images/embarkable-questions.png';
-import HighlightsCard from '../images/embarkable-highlights.png';
-import TopicCard from '../images/embarkable-topic.png';
-import BuildCard from '../images/embarkable-build.png';
-
-import SaasCase from '../images/use-case-saas.webp';
-import GamesCase from '../images/use-case-games.webp';
-import IotCase from '../images/use-case-iot.webp';
-import TeamsCase from '../images/use-case-teams.webp';
-
-//gif
-import FeedbackGIF from '../images/add-feedback.gif';
-import FeedbackGraphGIF from '../images/feedback-graph.webp';
-import LikeFeedbackGIF from '../images/like-feedback.webp';
-import MeaningfulFeedbackGIF from '../images/meaningful-feedback.webp';
-
 //logo
-import LogoIcon from  '../images/rainbow-rocket.png';
+import LogoIcon from "../images/rainbow-rocket.png";
 
 //SEO metadata image
-import MetaImage from '../images/embarkable-build-better.webp';
+import MetaImage from "../images/paper_boats-194094.jpg";
 
 //profile pics
-import natelily from '../images/nate-lily-color.webp';
-import lilyann from '../images/lilyann.jpg';
-import nathan from '../images/nathan.jpg';
+
+import nathan from "../images/nathan.jpg";
+import nathanin from "../images/nathan_linkedin.webp";
+
+import spruce from "../images/Spruce_Logo_2017_inv_512px.png";
+import embarkable from "../images/embarkable_logo-800.png";
 
 //ca
-import MadeInUSA from '../images/made-in-USA.webp';
+
+import LandingPageImage from "../images/paper_boats-194094.jpg";
 
 export const imageLookup = {
-	FeedbackBoard: FeedbackBoard,
-	FeedbackBoardPhoto: FeedbackBoardPhoto,
-	FeedbackBoardSquare: FeedbackBoardSquare,
-	QuestionsCard: QuestionsCard,
-	CuratedCard: CuratedCard,
-	EngageCard: EngageCard,
-	PrioritizeCard: PrioritizeCard,
-	DelightCard: DelightCard,
-	HighlightsCard: HighlightsCard,
-	TopicCard: TopicCard,
-	BuildCard: BuildCard,
+  MetaImage: MetaImage,
+  LogoIcon: LogoIcon,
 
-	SaasCase: SaasCase,
-	GamesCase: GamesCase,
-	IotCase: IotCase,
-	TeamsCase: TeamsCase,
+  Nathan: nathan,
+  NathanIn: nathanin,
 
-	FeedbackGIF: FeedbackGIF,
-	FeedbackGraphGIF: FeedbackGraphGIF,
-	LikeFeedbackGIF: LikeFeedbackGIF,
-	MeaningfulFeedbackGIF: MeaningfulFeedbackGIF,
-	
-	MetaImage: MetaImage,
-	LogoIcon: LogoIcon,
-	natelily: natelily,
-	Lilyann: lilyann,	
-	Nathan: nathan,
-	MadeInUSA: MadeInUSA
-}
+  Spruce: spruce,
+  Embarkable: embarkable,
+
+  LandingPageImage: LandingPageImage,
+};

@@ -1,182 +1,29 @@
 [
-	{
-		"name": "embarkable",
-		"title": "Grow with more meaningful feedback",
-		"subtitle": "Embarkable is a central repository for your user feedback.",
-		"description": "Embarkable is the user feedback platform that goes beyond up-votes to provide insightful, actionable user feedback.",
-		"icon": "rainbow-rocket.png",
-		"SEO": {
-			"title": "Embarkable is a central repository for your user feedback",
-			"image": "MetaImage"
-		},
-		"titleBlock": {
-			"title": "Build better products with more meaningful feedback.",
-			"subtitle": "Embarkable is the user feedback platform that goes beyond up-votes to provide insightful, actionable user feedback.",
-			"text": "Embarkable is a central repository for your user feedback. Engage with users to find out what they need - and why.",
-			"color": "bg-blue-200",
-			"image": "MeaningfulFeedbackGIF",
-			"CTAButtonText": "Try it free"
-		},
-		"CTA": {
-			"text": "Ready to discover insights on your product and user base?",
-			"CTAButtonText": "Get meaningful feedback",
-			"inputText": "Join the waitlist!",
-			"buttonText": "Notify me!"
-		},
-		"features": [
-			{
-				"name": "collect",
-				"link": "#collect",
-				"title": "Collect",
-				"subtitle": "Collect sophisticated customer feedback",
-				"description": "Funnel ideas, requests and suggestions into the feedback portal.",
-				"icon": "faPlusSquare",
-				"color": "purple",
-				"arrow": true
-			},
-			{
-				"name": "engage",
-				"link": "#engage",
-				"title": "Engage",
-				"subtitle": "Highlight and engage customer feedback",
-				"description": "Mark topics of interest and Embarkable will prioritize them for engagement.",
-				"icon": "faComments",
-				"color": "blue",
-				"arrow": true
-			},
-			{
-				"name": "prioritize",
-				"link": "#prioritize",
-				"title": "Prioritize",
-				"subtitle": "Use comments, survey data and ranking to prioritize product requests",
-				"description": "Use comments, survey data and ranking to prioritize product requests.",
-				"icon": "faChartLine",
-				"color": "orange",
-				"arrow": true
-			},						
-			{
-				"name": "delight",
-				"link": "#delight",
-				"title": "delight",
-				"subtitle": "Build products that create value",
-				"description": "Review your feedback to understand what is most important and why.",
-				"icon": "faRoute",
-				"color": "pink",
-				"arrow": false
-			}
-		],
-		"useCase": [
-			{
-				"name": "saas",
-				"icon": "faPlusSquare",
-				"title": "Saas",
-				"subtitle": "Build the features your users need to get maximum value out of your software.",
-				"color": "pink",
-				"image": "SaasCase",
-				"arrow": true
-			},
-			{
-				"name": "game",
-				"icon": "faComments",
-				"title": "Gaming",
-				"subtitle": "Capture great ideas to build new worlds, add new items or correct bugs.",
-				"color": "indigo",
-				"image": "GamesCase",
-				"arrow": true
-			},
-			{
-				"name": "iot",
-				"icon": "faChartLine",
-				"title": "Connected Devices",
-				"subtitle": "Collect feature and integration requests to keep your devices ahead of the competition.",
-				"color": "red",
-				"image": "IotCase",
-				"arrow": true
-			},
-			{
-				"name": "team",
-				"icon": "faRoute",
-				"title": "Groups",
-				"subtitle": "Give your team or user group a portal for feedback and suggestions.",
-				"color": "purple",
-				"image": "TeamsCase",
-				"arrow": false
-			}
-		],
-		"content": [
-			{
-				"id": "what",
-				"title": "What is Embarkable?",
-				"subtitle": "Collect",
-				"text": "Embarkable is the user feedback platform that goes beyond up-votes to provide insightful, actionable user feedback.",
-				"color": "bg-blue-200",
-				"button": false,
-				"buttonColor": "red",
-				"image": "TopicCard",
-				"event_id": "what-is-embarkable"
-			},
-			{
-				"id": "collect",
-				"title": "Curated public feedback boards",
-				"subtitle": "Collect",
-				"text": "Focusing on upvotes has unintended negative side effects. It shifts the thought from 'if' to 'when'. The oldest (and probably the features you don't intend to implement) end up accruing the most upvotes, and people see that as ignoring the user.",
-				"color": "bg-gray-100",
-				"button": true,
-				"buttonColor": "purple",
-				"CTAButtonText": "Ditch the up-vote",
-				"image": "CuratedCard",
-				"event_id": "public-feedback"
-			},						
-			{
-				"id": "engage",
-				"title": "Promote conversation",
-				"subtitle": "Collect",
-				"text": "Encourage discussion about the user's true problems, the impact, and the use case. Pin topics that you're interested in so that users can see them first. Need this info after the fact? Email the users who haven't commented to get their input too.",				
-				"color": "bg-white",
-				"button": true,
-				"buttonColor": "blue",
-				"CTAButtonText": "Connect with your users",
-				"image": "EngageCard",
-				"event_id": "conversation"
-			},						
-			{
-				"id": "prioritize",
-				"title": "More info to help prioritize",
-				"subtitle": "Collect",
-				"text": "Collect more than just the upvote. Add a quick question or two to accompany each feedback submission to help triage and prioritize your backlog. Our selection of golden questions is the easiest way to get started.",				
-				"color": "bg-gray-100",
-				"button": true,
-				"buttonColor": "orange",
-				"CTAButtonText": "Prioritize feature requests",
-				"image": "PrioritizeCard",
-				"event_id": "prioritize"
-			},						
-			{
-				"id": "delight",
-				"title": "Build what really matters",
-				"subtitle": "Collect",
-				"text": "Build a product your users will love.  This is only possible when you truly understand your users.  Embarkable is here to help.",				
-				"color": "bg-white",
-				"button": true,
-				"buttonColor": "purple",
-				"CTAButtonText": "Build what customers need",
-				"image": "DelightCard",
-				"event_id": "build-what-matters"
-			},						
-			{
-				"id": "effecient",
-				"title": "Reduce your workload",
-				"subtitle": "Collect",
-				"text": "Swimming in a sea of feedback? We'll show similar feedback for new feedback submissions to reduce redundant requests (and busywork!)",				
-				"color": "bg-gray-100",
-				"button": true,
-				"buttonColor": "red",
-				"CTAButtonText": "Get better feedback",
-				"image": "CuratedCard",
-				"event_id": "what-is-embarkable"
-			}
-		],		
-		"image": "QuoteSummary",
-		"color": "red"
-	}
+  {
+    "name": "embarkablelabs",
+    "title": "Product development lab",
+    "subtitle": "EmbarkableLabs",
+    "description": "Product development lab",
+    "icon": "rocket.png",
+    "SEO": {
+      "title": "Product development lab",
+      "image": "MetaImage"
+    },
+    "titleBlock": {
+      "title": "Build better products with more meaningful feedback.",
+      "subtitle": "Embarkable is the user feedback platform that goes beyond up-votes to provide insightful, actionable user feedback.",
+      "text": "Embarkable is a central repository for your user feedback. Engage with users to find out what they need - and why.",
+      "color": "bg-blue-200",
+      "image": "MeaningfulFeedbackGIF",
+      "CTAButtonText": "Try it free"
+    },
+    "CTA": {
+      "text": "Ready to discover insights on your product and user base?",
+      "CTAButtonText": "Get meaningful feedback",
+      "inputText": "Join the waitlist!",
+      "buttonText": "Notify me!"
+    },
+    "image": "QuoteSummary",
+    "color": "red"
+  }
 ]

@@ -13,3 +13,5 @@ Spruce website built with Gatsby and Tailwind
 - install netlify cli
   - netlify init to connect
   - netlify dev to dev and test functions
+
+make public

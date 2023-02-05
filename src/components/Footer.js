@@ -2,7 +2,7 @@ import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { LogoBlock } from "./LogoBlock";
+import LogoBlock from "./LogoBlock";
 import { iconLookup } from "../utilities/iconLookup";
 
 export function Footer() {

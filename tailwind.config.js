@@ -2,6 +2,11 @@
 
 //change these
 module.exports = {
+  content: [
+    "./pages/**/*.{html,js}",
+    "./components/**/*.{html,js}",
+    "./src/**/*.js",
+  ],
   theme: {
     screens: {
       sm: "640px",

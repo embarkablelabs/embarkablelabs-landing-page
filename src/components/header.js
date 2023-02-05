@@ -6,7 +6,7 @@ import { ProductCard } from "../components/ProductCard";
 import learnData from "../data/learnData";
 import landingPageData from "../data/embarkablePageData";
 import { useScrollPosition } from "../utilities/useScrollPosition";
-import { LogoBlock } from "./LogoBlock";
+import LogoBlock from "./LogoBlock";
 import { SubscribeModal } from "./Modal";
 
 const solutionData = landingPageData[0].features;

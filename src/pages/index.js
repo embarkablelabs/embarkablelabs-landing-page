@@ -35,9 +35,9 @@ function IndexPage() {
           className="absolute object-cover w-full h-full overflow-hidden"
           src={imageLookup.LandingPageImage}
         />
-        <div className="absolute max-w-sm text-blue-600 md:max-w-xl left-1/10 top-1/5">
-          {/* <LogoBlock /> */}
-          <div className="text-3xl md:text-6xl">
+        <div className="absolute w-full text-center text-blue-600 md:text-left md:max-w-xl md:left-1/10 top-1/5">
+          <LogoBlock />
+          <div className="mt-3 text-3xl md:text-6xl">
             Where creativity meets innovation.
           </div>
         </div>

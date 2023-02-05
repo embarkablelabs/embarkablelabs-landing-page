@@ -17,7 +17,7 @@ const LogoBlock = ({ showLabel = true, size = "m" }) => {
           </div>
           {/* <img className={`${size === 'sm' && 'w-8'} ${size === 'm' && 'w-10'} ${size === 'lg' && 'w-12'}`} src={imageLookup.LogoIcon}/> */}
           {showLabel && (
-            <div className="mx-2 text-2xl font-bold text-blue-800 fontlogo">
+            <div className="mx-2 my-1 text-2xl font-bold text-blue-800 fontlogo">
               embarkable
               <span className="font-extrabold text-pink-500">labs</span>
             </div>
